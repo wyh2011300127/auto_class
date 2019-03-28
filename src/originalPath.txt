@@ -1,0 +1,2599 @@
+$ git log --name-only
+commit 05ec65c4f5876121320f25e9aef94cfcd17c8689 (HEAD -> dev, origin/dev)
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 27 14:59:35 2019 +0800
+
+    客户端成功删除收藏优化提示
+
+src/main/java/com/sinovatech/b2b/client/controller/ClientCollectionController.java
+
+commit 055c10c274f1a6133898d138dd061e9c47182212
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 27 14:49:53 2019 +0800
+
+    客户端收货地址删除功能修复
+
+WebRoot/WEB-INF/views/eGo/client/addrList.jsp
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bBuyeAddrDAO.java
+
+commit 9eeb274216e80a3a25f44f891643c0031a086d3d
+Author: shuyi <shuyi>
+Date:   Wed Mar 27 09:37:46 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/CopyInfoController.java
+
+commit 7cd27b08b5fac4dbc5dba0633249aa142a2ae536
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 26 11:20:56 2019 +0800
+
+    代码优化
+
+WebRoot/WEB-INF/views/eGo/client/productDetail.jsp
+
+commit d52024b9a7a9e247a2dd0d931e4993e8fb2e3bc0
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 26 11:12:00 2019 +0800
+
+    客户端商品详情页颜色切换修复
+
+WebRoot/WEB-INF/views/eGo/client/productDetail.jsp
+
+commit 51df5273b3f045a2b3c1a527f509e0ab88e84a68
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 26 10:36:43 2019 +0800
+
+    客户端商品详情页引用文件路径修复
+
+WebRoot/WEB-INF/views/eGo/client/clientGWC.jsp
+WebRoot/WEB-INF/views/eGo/client/productDetail.jsp
+
+commit e5dce48ead8389e040ae6e272dcd1a292bb59d15
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 26 10:18:53 2019 +0800
+
+    价格和库存判断
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+
+commit ee4006c3b38ca545dca6e7a5b821bd7389dd3f2f
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 26 09:39:02 2019 +0800
+
+    库存配置
+
+src/main/java/com/sinovatech/b2b/util/B2bTool.java
+
+commit b3506d507c43567e1b9c471986a80fbc459e579e
+Merge: 3c415ea3 80eb8146
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 26 09:21:42 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 3c415ea310b1a3eb4ed3902d2815c7e758f22926
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 26 09:21:11 2019 +0800
+
+    首页配置数据
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProductDAO.java
+
+commit 80eb8146ea817767f1cd9d41174414ea51288695
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 25 17:33:23 2019 +0800
+
+    客户端新版搜索页，列表页增加登录判断
+
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+
+commit 2158af6479b4c349a02f5506ffeaba3aa02e5fc5
+Merge: 20b81270 82d9bac7
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 25 16:46:25 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 20b81270b47fbe2aea1aa53d49541b7a754bbae9
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 25 16:45:48 2019 +0800
+
+    配置C端库存
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/util/B2bTool.java
+
+commit 82d9bac744681088ef1c75930707ed3d3d420fd3
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 25 16:42:01 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+
+commit 0344ed71461ac35f392238072346b2144fe75705
+Merge: b9960a33 c62d2b3b
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 25 08:27:47 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit c62d2b3bbcb096691632cf8487c75eec64b44783
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Fri Mar 22 18:53:55 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit e56f91b4f522285032125efa336983c312c28144
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 22 18:52:20 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit b9960a33f8640ce63c88e7b4de4a01c0f74cec3a
+Merge: bb916ae7 8be75dab
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 22 16:41:38 2019 +0800
+
+    Merge branch 'dev' of http://152.55.229.122/sinovatech/b2b into dev
+
+commit bb916ae70858430d4cb384a8b64d6afd41f80ad0
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 22 16:41:02 2019 +0800
+
+    建设银行jar
+
+src/main/resources/config.properties
+src/main/resources/openca.cer
+
+commit 633075b02648b3efdec56fb50aa5e6f36f5913a8
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 22 16:40:24 2019 +0800
+
+    建设银行jar
+
+WebRoot/WEB-INF/lib/ccb-biz-sdk-loansvc-ccbinclsvfnsvc-1.0.2.jar
+WebRoot/WEB-INF/lib/ccb-java-sdk-1.0.2.jar
+WebRoot/WEB-INF/lib/infosecCrypto_1.3.jar
+
+commit 8be75dab5e7041fe984e60d76b68171a19cf9f39
+Merge: 806e240c 11932cfd
+Author: shuyi <shuyi>
+Date:   Fri Mar 22 16:34:04 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 806e240c44e55155d646111702165dedb5299be9
+Author: shuyi <shuyi>
+Date:   Fri Mar 22 16:33:28 2019 +0800
+
+    代码优化
+
+WebRoot/js/client/product/phoneDetail.js
+
+commit 11932cfd541e922cbfdec9a005185dab49aa2d66
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 22 16:30:54 2019 +0800
+
+    客户端新版老版页面跳转
+
+WebRoot/WEB-INF/views/eGo/client/productSearch.jsp
+WebRoot/WEB-INF/views/eGo/client/shopCartList.jsp
+WebRoot/js/client/product/phoneList.js
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+
+commit 0b3c7cfe7104c9e557fc48631a4305dc3a0cf0a0
+Author: shuyi <shuyi>
+Date:   Fri Mar 22 16:26:25 2019 +0800
+
+    优化
+
+WebRoot/js/client/product/phoneDetail.js
+
+commit 1e5db35d89ff06c59369be303e37881e0a3eed4e
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 22 16:20:10 2019 +0800
+
+    客户端新版老版页面js
+
+WebRoot/js/client/product/phoneList.js
+
+commit 9a85cc92d94042a19555144ff1607d796b15624f
+Merge: b75e9aa4 5d5105c2
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 22 16:19:19 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+    # Conflicts:
+    #       WebRoot/WEB-INF/views/eGo/client/productList.jsp
+
+commit b75e9aa4c876170a360022cc691b06db3a98b982
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 22 16:18:26 2019 +0800
+
+    客户端新版商品列表页优化
+
+WebRoot/WEB-INF/views/eGo/client/productList.jsp
+
+commit 5d5105c2d3aaffa0c63d45966a954ea492096d16
+Author: shuyi <shuyi>
+Date:   Fri Mar 22 16:08:29 2019 +0800
+
+    导航栏切换
+
+WebRoot/js/client/product/phoneDetail.js
+
+commit e2e1680d63c6d0248b8fee199f5399afc9502793
+Author: shuyi <shuyi>
+Date:   Fri Mar 22 14:37:16 2019 +0800
+
+    商品信息展示
+
+WebRoot/css/customer/main02.css
+WebRoot/html/client/customer/product/index_detail.html
+WebRoot/js/client/product/phoneDetail.js
+
+commit ac6bf8ff356532b52d95f53c033b72a6b50a8bdb
+Author: wuxuzhao <wuxuzhao@sinovatech.com>
+Date:   Fri Mar 22 11:30:45 2019 +0800
+
+    搜索参数添加
+
+WebRoot/WEB-INF/views/eGo/client/productList.jsp
+WebRoot/js/client/product/phoneList.js
+
+commit 5870bae8662c6fb57b5af0676468ac70e238891f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 22 10:01:14 2019 +0800
+
+    客户端购物车页面优化
+
+WebRoot/WEB-INF/views/eGo/client/shopCartList.jsp
+WebRoot/css/client/css.css
+
+commit 31436c4f23d19d0c8e535b5141a16ca286558214
+Author: shuyi <shuyi>
+Date:   Fri Mar 22 09:43:46 2019 +0800
+
+    处理图片同步
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+
+commit d4bcfa89e4d6a1a1e6f98d8887f452f045f7d9ac
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 22 09:29:48 2019 +0800
+
+    首页产品数据同步
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProductDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bProductFacade.java
+
+commit afb1eb8af0d8865c8780735c7cb9c28349956279
+Author: shuyi <shuyi>
+Date:   Thu Mar 21 14:24:33 2019 +0800
+
+    商品详细信息展示
+
+WebRoot/html/client/customer/product/index_detail.html
+WebRoot/js/client/product/phoneDetail.js
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+
+commit 2b712287c98fb44775ded649c52b0c1f1c1149f7
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 20 17:57:18 2019 +0800
+
+    代码回复
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 24aaa37f1fb82a896b51a61786f6742fea55e22d
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 17:42:33 2019 +0800
+
+    商户类别处理
+
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+
+commit f9135488a770301332bfaee1ec2f169fea1a7fdd
+Merge: ddfffadb 6bcbe70a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 17:13:41 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit ddfffadbe12d521f099b16741d48dcd527c0d6bc
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 17:11:41 2019 +0800
+
+    库存判断
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 6bcbe70a90b15de347abd60fc5e410fc2e00128f
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 17:07:56 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit e701fe1a372342a675603a88523bff131df4e8d3
+Merge: bbb6cbab e85d6b5e
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 17:06:19 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit bbb6cbabfad9e93255474a6a49dae3f4f741b007
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 17:06:00 2019 +0800
+
+    不同步下架时间
+
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit e85d6b5e21eb34343d98ea1e3a26664c4748c273
+Merge: 21dde00c 82a896ab
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 16:50:45 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 21dde00c4bdc419f4e855d9cdbb2e48b110e0c16
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 16:50:03 2019 +0800
+
+    只有配置了C端价格才进行产品同步
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 82a896ab6ef1184c6248571532917ce0da17aa13
+Merge: 462cee42 4b388332
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 20 16:35:08 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 462cee4299d89e74565e76967bcfbf3037471f8a
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 20 16:34:50 2019 +0800
+
+    客户端新版退出重定向到C端首页
+
+WebRoot/WEB-INF/views/eGo/client/myClient.jsp
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 4b388332bd065a794d8667dcb03253742f9d8867
+Merge: d1acf69e fd66d66c
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 16:25:17 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit d1acf69ee74dacdac37018c883d8e017a2958ce0
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 16:24:56 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/util/ConvertUtil.java
+
+commit fd66d66c7fcf727475233a7484274ad94e98f03c
+Merge: d9a77d10 e7b93016
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 16:13:23 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit d9a77d1074e443985047c65b8ce97d867bcd59ab
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 16:09:23 2019 +0800
+
+    跳转登陆
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit e7b930167db2c76782459a914515b8096d820f27
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 20 14:57:57 2019 +0800
+
+    客户端新版页面新增头部返回按钮
+
+WebRoot/WEB-INF/views/eGo/client/addrEdit.jsp
+WebRoot/WEB-INF/views/eGo/client/addrList.jsp
+WebRoot/WEB-INF/views/eGo/client/clientHeader.jsp
+WebRoot/WEB-INF/views/eGo/client/clientImportImei.jsp
+WebRoot/WEB-INF/views/eGo/client/collectionProductList.jsp
+WebRoot/WEB-INF/views/eGo/client/feedBack/orderFeedBack.jsp
+WebRoot/WEB-INF/views/eGo/client/orderAllList.jsp
+WebRoot/WEB-INF/views/eGo/client/orderCheckout.jsp
+WebRoot/WEB-INF/views/eGo/client/orderDetail.jsp
+WebRoot/WEB-INF/views/eGo/client/orderNoSureList.jsp
+WebRoot/WEB-INF/views/eGo/client/productDetail.jsp
+WebRoot/WEB-INF/views/eGo/client/shopCartList.jsp
+
+commit 3ce9c0feaa8c7387bfe442f8c4743e7b63f070ee
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Wed Mar 20 13:32:51 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 44e9de2564e0ad39965ddbdbcb6133901b8a38a1
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 13:31:23 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit f5f3bac51f2e6175696fce9078030a477d97ff5f
+Merge: 36cf777f f450263e
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 11:02:47 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 36cf777f194595e5437cf2c5d5dd95cd7cfa5bd7
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 11:02:30 2019 +0800
+
+    增加图片同步时间
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit f450263ef88604e12c60dd2fc6fc956ea38fa526
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 20 10:50:16 2019 +0800
+
+    客户端新版老版页面跳转
+
+src/main/java/com/sinovatech/b2b/client/controller/ClientCollectionController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClientImeiController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClientShoppingCartController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+src/main/java/com/sinovatech/b2b/util/ActivityUtil.java
+
+commit 509579b8aed5a8fd3b6d3265b1167ed29284f6a5
+Author: shuyi <shuyi>
+Date:   Wed Mar 20 10:35:41 2019 +0800
+
+    商品信息展示
+
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+
+commit c2b229ffb382fe470c7abfa66ed25f1c86651200
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 09:36:11 2019 +0800
+
+    跳转登陆界面
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit f402ea582b27caa020a1de93b1f62fef182190a6
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 09:19:55 2019 +0800
+
+    界面处理
+
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addPhone.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+
+commit 46d9d1882d47c2c05599e84d4b467a145068ee7d
+Merge: 33c66164 ead92e75
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 20 08:28:28 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit ead92e7566e89f05a91feae11178380eb4fa9714
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Tue Mar 19 18:53:52 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 92aca101636b16900557b2104428da45db23d991
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 19 18:52:09 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 33c6616406d391c637cbc5365b14c1a06380f154
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 19 17:28:29 2019 +0800
+
+    老版界面
+
+WebRoot/WEB-INF/views/eGo/oldclient/addrAdd.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/addrEdit.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/addrList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/checkTgClientOut.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/clientGWC.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/clientImportImei.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/clientTgItemList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/clientTgList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/collectionProductList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/commonJs.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/feedBack/orderFeedBack.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/feedBack/toFeedBackIndex.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/feedBack/toFeedBackTwo.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/finishImportImei.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/imeiAllot/pLogin.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/imeiAllot/toImeiAllot.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/listHotRank.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/login.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/orderAjaxAllList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/orderAllList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/orderCheckout.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/orderDeliver.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/orderDetail.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/orderNoSureList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/productAjaxCommentList.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/productComment.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/productDetail.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/productIntro.jsp
+WebRoot/WEB-INF/views/eGo/oldclient/shopCartList.jsp
+WebRoot/html/client/customer/login/b2cLogin.html
+src/main/java/com/sinovatech/b2b/client/controller/ClientAddrController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClientCollectionController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClientOrderController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClientShoppingCartController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+src/main/java/com/sinovatech/b2b/util/ActivityUtil.java
+
+commit eecfa4852cf414ff3adb7bb6fcbc7034d758ac5b
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 19 15:02:22 2019 +0800
+
+    跳转登陆界面
+
+.classpath
+.project
+
+commit 8a018b7546b1ac5e82bb7e88123928be0497d7df
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 19 14:28:39 2019 +0800
+
+    跳转登陆界面
+
+WebRoot/html/client/customer/login/b2cLogin.html
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 0a7abeb1ce6a6b40e1108c9cf1f6ebd468d622cf
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 19 09:51:28 2019 +0800
+
+    跳转登陆界面
+
+.gitignore
+
+commit 2d9c5683072c417ce5a34143c9820bc1b13c9f6d
+Author: shuyi <shuyi>
+Date:   Tue Mar 19 08:43:44 2019 +0800
+
+    处理图片同步
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit ecdc32484b7c5fd94e93259324fc1c1215583149
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Mon Mar 18 18:53:43 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit f0d5c4d1b6a62d42ebdeb4c89ec7199af75e7910
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 18:52:08 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 4664a3c6974b8eb81b448493ad9ca25fa9c6580b
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 18:20:20 2019 +0800
+
+    .*提交
+
+.gitignore
+
+commit 63946bc5be8b5742ac64edb64104e8485f5168b4
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 17:59:34 2019 +0800
+
+    跳转登陆界面
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 694484bafe62d13d551192b82413b80543450932
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 17:45:21 2019 +0800
+
+    跳转登陆界面
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 5728ec157d080b974b8b264e9019932905e3d966
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 17:43:08 2019 +0800
+
+    跳转登陆界面
+
+WebRoot/html/client/customer/login/b2cLogin.html
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 6c9884f1e4f2ee02e16fdf6845aaa93a6a2daf55
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 17:42:01 2019 +0800
+
+    跳转登陆界面
+
+WebRoot/html/client/customer/login/b2cLogin.html
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 96368582142e6ab8a56b349964d43200dcff404f
+Merge: ea0a5fd2 34b60f31
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 17:14:48 2019 +0800
+
+    Merge branch 'dev' of http://152.55.229.122/sinovatech/b2b into dev
+
+commit ea0a5fd2918bf59ad95d74823d406caeee3d6f75
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 17:14:36 2019 +0800
+
+    跳转登陆
+
+WebRoot/html/client/customer/login/b2cLogin.html
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2BLoginLogBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2BLoginLogDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2BLoginLogFacade.java
+
+commit 34b60f318f6273be29bd809ee0430fe4938ed36a
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 18 16:09:13 2019 +0800
+
+    C端请求B2B登录
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 569c490a985d5f2dae2f6f15478868582d0cf051
+Merge: 74c3c966 053c14b5
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 14:15:10 2019 +0800
+
+    Merge branch 'dev' of http://152.55.229.122/sinovatech/b2b into dev
+
+commit 74c3c966328f2b10ba1a7dad6efc2df29cbe687e
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 14:15:00 2019 +0800
+
+    idea配置
+
+.classpath
+.project
+b2b.iml
+
+commit f8f1649edc0801e444c0b6ebea78bb758f5d8d18
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 14:14:25 2019 +0800
+
+    idea
+
+.idea/artifacts/b2b_war_exploded.xml
+
+commit 053c14b57bf096ad86df616743c59154d28228e2
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 18 14:12:34 2019 +0800
+
+    C端订单类型使用普通订单类型
+
+src/main/java/com/sinovatech/b2b/b2binterface/impl/B2bDeliverServiceImpl.java
+
+commit afe0e502d9e9ad33e6f054c25615528745de6ea6
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 18 14:11:06 2019 +0800
+
+    C端登录
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 304c4a1c64d639df2afe7e721fd51d04245b2641
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 18 14:08:25 2019 +0800
+
+    C端请求
+
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 33f74a38db5bc588c548640ff3e9fd83704a4863
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 11:38:52 2019 +0800
+
+    价格限制
+
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addPhone.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editPhone.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 02b1516dedcf3e99184733d4c32e1d9617261fa4
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 10:58:14 2019 +0800
+
+    库存处理
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 13d33eb89e8068327651dccb70dd7e394d1cedd3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 10:22:34 2019 +0800
+
+    库存处理
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 97441d7b7c374a538fdfc8b477650161f50252b7
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 18 09:43:42 2019 +0800
+
+    库存处理
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 8e512fe033ffb7fac59f60787dec15bdb1c2256a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 17:02:48 2019 +0800
+
+    库存处理
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 26fa796123667739b0368d5a5883e63015d83226
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 15:43:38 2019 +0800
+
+    库存处理
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+
+commit 7bc3f8d041cbdeec04ac63832c492b6734602a2c
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 15:31:49 2019 +0800
+
+    库存处理
+
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addPhone.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 2eb8c255a621678547dfc3c4d72635af8011dcb7
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 14:46:54 2019 +0800
+
+    队列处理
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+
+commit 313ee504ec3ceaaaed2fa97955cd3a05b75fb3a8
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 14:38:21 2019 +0800
+
+    队列处理
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductStockBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dto/AbstractTB2bProductStockDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bProductStockFacade.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bProductStockService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+src/main/java/com/sinovatech/b2b/b2binterface/impl/B2bDeliverServiceImpl.java
+src/main/java/com/sinovatech/b2b/util/B2bTool.java
+
+commit 600dae445288f9c70ac7b0999e0766e0a662c0e3
+Merge: 1c3cc706 ced1f852
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 11:33:59 2019 +0800
+
+    Merge branch 'dev' of http://152.55.229.122/sinovatech/b2b into dev
+
+commit 1c3cc706d54e4f1c87402cab742eac63bfcc9b04
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 11:33:51 2019 +0800
+
+    队列处理
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/StockQueueDeal.java
+
+commit 256dc717b9a60be454c3386f72ffed05ff2b9068
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 16 11:31:35 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit ced1f8527eb670cc3726ee03f4469c27b099259f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Sat Mar 16 11:22:34 2019 +0800
+
+    客户端订单页底部，收货地址页底部等新增导航栏
+
+WebRoot/WEB-INF/views/eGo/client/addrList.jsp
+WebRoot/WEB-INF/views/eGo/client/clientBottomNav.jsp
+WebRoot/WEB-INF/views/eGo/client/clientImportImei.jsp
+WebRoot/WEB-INF/views/eGo/client/collectionProductList.jsp
+WebRoot/WEB-INF/views/eGo/client/myClient.jsp
+WebRoot/WEB-INF/views/eGo/client/orderAllList.jsp
+WebRoot/WEB-INF/views/eGo/client/orderCheckout.jsp
+WebRoot/WEB-INF/views/eGo/client/orderNoSureList.jsp
+WebRoot/WEB-INF/views/eGo/client/shopCartList.jsp
+src/main/java/com/sinovatech/b2b/client/controller/ClientShoppingCartController.java
+
+commit 50df44e06ddfe33ac5d586244db682093d3518da
+Author: shuyi <shuyi>
+Date:   Sat Mar 16 10:26:22 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit 6e61160d000e29da64bd3d8924a30172ab2fc826
+Author: shuyi <shuyi>
+Date:   Sat Mar 16 09:06:14 2019 +0800
+
+    为B端最后一个上架商品进行下架时,将C端该型号商品进行下架
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProductDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bProductFacade.java
+
+commit 94d304a9c2b731bde1c401361e5cd3aba9ab859f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 15 16:33:39 2019 +0800
+
+    开发客户端新增“我的”，购物车页面
+
+WebRoot/WEB-INF/views/eGo/client/myClient.jsp
+WebRoot/WEB-INF/views/eGo/client/productDetail.jsp
+WebRoot/WEB-INF/views/eGo/client/productList.jsp
+WebRoot/WEB-INF/views/eGo/client/shopCartList.jsp
+WebRoot/css/client/css.css
+WebRoot/css/customer/images/bg_right.png
+WebRoot/css/customer/main.css
+WebRoot/css/customer/main02.css
+WebRoot/images/client/customer/head_portrait.png
+WebRoot/images/client/customer/head_top.png
+WebRoot/images/client/customer/myhb01.png
+WebRoot/images/client/customer/myhb02.png
+WebRoot/images/client/customer/myhb03.png
+WebRoot/images/client/customer/myhb04.png
+WebRoot/images/client/customer/myhb05.png
+WebRoot/images/client/customer/myhb06.png
+WebRoot/images/client/customer/myhb07.png
+WebRoot/js/client/product/phoneList.js
+src/main/java/com/sinovatech/b2b/client/controller/ClientProductController.java
+src/main/java/com/sinovatech/b2b/client/controller/ClinetMobileInterFaceController.java
+
+commit 15e10f4d75be4040bd337f5393b3507687ce91f7
+Merge: 4c409a43 665f285a
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 15 16:26:46 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+    # Conflicts:
+    #       WebRoot/WEB-INF/views/eGo/client/clientBottomNav.jsp
+
+commit 4c409a43a1407fbf461b13447deef9f7e4d07ecf
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 15 16:22:22 2019 +0800
+
+    客户端底部
+
+WebRoot/WEB-INF/views/eGo/client/clientBottomNav.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 665f285ad04a2de8a4e08e51bca7510a0a9d4c1d
+Merge: 5e96fafc a9d98dd9
+Author: shuyi <shuyi>
+Date:   Fri Mar 15 15:41:07 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 5e96fafcbc826c6a4c4f59122924a33faf8c1056
+Author: shuyi <shuyi>
+Date:   Fri Mar 15 15:40:30 2019 +0800
+
+    c端产品增加b端价格
+
+src/main/java/com/sinovatech/b2c/model/entity/AbstractTProductDTO.java
+
+commit a9d98dd9ef24b788911b5e12569434ae89a17c37
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 15 15:37:50 2019 +0800
+
+    更新接口信息
+
+WebRoot/WEB-INF/views/eGo/product/productList.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addPhone.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editPhone.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductStockBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dto/AbstractTB2bProductDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dto/DeptInfoDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+src/main/resources/hbm/TB2bProductDTO.hbm.xml
+
+commit 946c7b0e16877e7b951544f688f521f6170f9a9b
+Merge: b97be020 9a2654ea
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 15 15:34:30 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit b97be02048eab62cb5f1f63499d8c2ecabf4d968
+Merge: cc56e187 1c9a833d
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 15 15:33:34 2019 +0800
+
+    更新接口信息
+
+commit 9a2654eab9a7031249626ac92844c4778d7fbeed
+Author: shuyi <shuyi>
+Date:   Fri Mar 15 15:18:23 2019 +0800
+
+    c端产品增加b端价格
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+src/main/resources/kdHbm/TProductDTO.hbm.xml
+
+commit cc56e18743585c8a4b7584fb0f0836bfea5f9e5d
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 15 10:53:08 2019 +0800
+
+    库存处理
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 1c9a833d6c7657a363d73b4b0ce69d079f59a564
+Merge: 0ecb0b3e a882a4bd
+Author: shuyi <shuyi>
+Date:   Thu Mar 14 18:50:38 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 0ecb0b3e02e488c2f6b079c18ebbfda5ebe701c6
+Author: shuyi <shuyi>
+Date:   Thu Mar 14 18:50:13 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/util/ConvertUtil.java
+
+commit a882a4bd88f2c999e2833afd82cf967dae4bca6e
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Thu Mar 14 18:49:58 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit e7f17211417d2fc744ebe8b7979b24fba8fb44e4
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 14 18:48:25 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit c780a517bf25da1df02b3f7b89c581af92f8c64c
+Author: shuyi <shuyi>
+Date:   Thu Mar 14 10:04:06 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 591e5dd4e7591470f018d36646571f12df9a1125
+Merge: 611cf01c f9d90c58
+Author: shuyi <shuyi>
+Date:   Thu Mar 14 10:02:25 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 611cf01ce2f5f3937c5913234e940e90ec3aafdc
+Author: shuyi <shuyi>
+Date:   Thu Mar 14 10:01:40 2019 +0800
+
+    先同步信息再执行上架
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit f9d90c58ed048775ec45882d2e3fc2338bdbdc82
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Wed Mar 13 18:47:11 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 3388326338285588331b4a127b4d2dc36f484707
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 13 18:45:30 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 6d2bc1af01064a8526d78317e9eeb7c8a7a28ab5
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 13 17:29:27 2019 +0800
+
+    客户端商品详情页、购物车页添加页面尾部选项按钮
+
+WebRoot/WEB-INF/views/eGo/client/clientBottomNav.jsp
+WebRoot/WEB-INF/views/eGo/client/productDetail.jsp
+WebRoot/WEB-INF/views/eGo/client/shopCartList.jsp
+WebRoot/css/customer/images/home.png
+WebRoot/css/customer/images/return03.png
+src/main/java/com/sinovatech/b2b/client/controller/ClientShoppingCartController.java
+
+commit 9c9b91930f7c85cd5120cceb4ca3f6a7f38520d3
+Author: shuyi <shuyi>
+Date:   Wed Mar 13 17:05:24 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit e00edaefc4672701353d76c8846c75fde29c8de6
+Author: shuyi <shuyi>
+Date:   Wed Mar 13 16:49:05 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/model/dao/ProductDAO.java
+src/main/java/com/sinovatech/b2c/model/service/ProductService.java
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit b802c59f6e11b6dd7526c889042f66905955bd62
+Author: shuyi <shuyi>
+Date:   Wed Mar 13 15:53:25 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/model/dao/ProductDAO.java
+src/main/java/com/sinovatech/b2c/model/service/ProductService.java
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit 0105640323f1d9299c74ad19844f73b368e1aa7b
+Merge: cad482ba 91f7ce53
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 13 14:54:59 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit cad482bae9e333af7499d039b8a467476d994ea7
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 13 14:54:08 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 91f7ce53ee2f464ae8b81641914178e52ead035f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 13 11:11:39 2019 +0800
+
+    首页幻灯片轮播图悬停效果改进
+
+WebRoot/js/lunbo/lunbo2.js
+
+commit bff1c9139ea2fc25d8ba72d47f735c3a4ef27e73
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 13 09:07:29 2019 +0800
+
+    代码规范优化
+
+WebRoot/WEB-INF/views/eGo/egoPage/reducedPriceList.jsp
+
+commit 3198589b4dcdae5399c519fd2f62c32d263e6752
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Tue Mar 12 18:19:56 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 971efa15b4c6554255c6356fe3dcfa98f539f244
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 12 18:18:22 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 79e6c92008ccfcae9b25a2041609bb575adca78a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 12 16:45:42 2019 +0800
+
+    商品信息同步
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+
+commit db8c6ae97e4de9b0518bbe02a3f48b980a3e5d14
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 12 16:23:54 2019 +0800
+
+    手工测试方法
+
+src/main/java/com/sinovatech/b2b/b2b/controller/HandInterfaceController.java
+
+commit bd84ef5777717484ff150b576d7a82a0abb34616
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 12 16:22:16 2019 +0800
+
+    发货回调新增更新C端订单对应B2C系统订单状态
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bSyncB2cRecordDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bSyncB2cOrderService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+src/main/java/com/sinovatech/b2b/b2binterface/impl/B2bDeliverServiceImpl.java
+src/main/java/com/sinovatech/b2c/model/dao/OrderDAO.java
+src/main/java/com/sinovatech/b2c/model/service/OrderService.java
+src/main/resources/spring/applicationContext-xfire.xml
+
+commit 875b86b6cbb8138b84677cfb0379c26bcf001647
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 12 16:09:50 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/facade/SendOrderSms.java
+
+commit 81bc605bd3b1e7301395a1f0053f8539a29ca2ee
+Merge: fe83a473 d4cf541a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 12 15:16:15 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit fe83a4733f2a394abe8b8236d0ad70672cbb44a3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 12 15:15:07 2019 +0800
+
+    更新接口信息
+
+WebRoot/WEB-INF/templates/kd/preview/previewP1.ftl
+WebRoot/kdxm/shopPreview/pc/js/jquery-1.8.3.min.js
+
+commit d4cf541aed6c98fc7c6bb74cca99f41ddc00cd7f
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 11:06:04 2019 +0800
+
+    解决页面弹框冲突
+
+WebRoot/css/customer/main02.css
+WebRoot/html/client/customer/product/index_detail.html
+WebRoot/js/client/customer/index.js
+
+commit f20c9b647189ce41ed52add7eb198b65d2ba8185
+Merge: 17b159f6 544fe8e3
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 10:49:56 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 17b159f637d8b24f2ff64cd2122ea4ffb5def7cf
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 10:49:40 2019 +0800
+
+    增加js
+
+WebRoot/html/client/customer/product/index_detail.html
+WebRoot/js/client/product/phoneDetail.js
+
+commit 544fe8e3dcfdf750021313d97b715863b1437128
+Merge: 7dd7ecfe 2d8091a9
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 12 10:37:46 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 7dd7ecfea76716573c6a22c8c84f0deb50c7f623
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 12 10:37:15 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 2d8091a9c6f4a38d781a0b53394ffd36ef84b3b5
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 10:28:23 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit e9e566b67b7713da8d00b7fe73c8e73d60aaadf9
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 09:49:41 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit f1e661bf9f73d8131a1983a9ad5e4064f3727637
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 09:24:05 2019 +0800
+
+    优化sql
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProductDAO.java
+
+commit b7d84de85a5bb29d63f3514e2ea82882c13cf9bd
+Merge: 71f9b64a 0e3ea8b3
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 09:21:52 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 71f9b64af04f5b15946b84439bf569b79ae10fcf
+Author: shuyi <shuyi>
+Date:   Tue Mar 12 09:21:15 2019 +0800
+
+    限制为省级商户商品
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProductDAO.java
+
+commit 0e3ea8b338d7759c5156a9dc6899074d719a40a8
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Mon Mar 11 18:51:23 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 778bde5024bdb784680b95254ce8a06e5b4bd456
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 11 18:49:48 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 00c5bb2a3f3f1b203265521d5175b92cfdf71396
+Author: shuyi <shuyi>
+Date:   Mon Mar 11 10:42:40 2019 +0800
+
+    商品详情页
+
+WebRoot/css/customer/images/addr.png
+WebRoot/css/customer/images/addr02.png
+WebRoot/css/customer/images/bg_08.png
+WebRoot/css/customer/images/bg_09.png
+WebRoot/css/customer/images/bg_10.png
+WebRoot/css/customer/images/bg_11.png
+WebRoot/css/customer/images/bg_12.png
+WebRoot/css/customer/images/bg_down01.png
+WebRoot/css/customer/images/bg_up01.png
+WebRoot/css/customer/main02.css
+WebRoot/html/client/customer/product/index_detail.html
+WebRoot/images/client/customer/ad01.png
+WebRoot/images/client/customer/add.png
+WebRoot/images/client/customer/bg_08.png
+WebRoot/images/client/customer/detail_01.jpg
+WebRoot/images/client/customer/detail_02.jpg
+WebRoot/images/client/customer/detail_03.jpg
+WebRoot/images/client/customer/detail_04.jpg
+WebRoot/images/client/customer/gwc.png
+WebRoot/images/client/customer/home.png
+WebRoot/images/client/customer/pic36.png
+WebRoot/images/client/customer/pic37.png
+WebRoot/images/client/customer/quxiao03.png
+WebRoot/images/client/customer/ranking01.png
+WebRoot/images/client/customer/ranking02.png
+WebRoot/images/client/customer/ranking03.png
+WebRoot/images/client/customer/reduce.png
+WebRoot/images/client/customer/return03.png
+WebRoot/images/client/customer/share.png
+WebRoot/images/client/customer/shop01.png
+WebRoot/js/client/customer/index.js
+
+commit 31eb229f5888383598455596d0e89882dbab2dd4
+Author: wangyuheng <1095175119@qq.com>
+Date:   Sat Mar 9 17:24:25 2019 +0800
+
+    模板优化
+
+src/main/resources/ftl/znsb_ad.ftl
+
+commit b4cf90e77a04819121b719d23dd02a65296dbf39
+Author: wangyuheng <1095175119@qq.com>
+Date:   Sat Mar 9 17:20:25 2019 +0800
+
+    智能设备聚合页开发
+
+WebRoot/WEB-INF/views/eGo/branch/picConfig.jsp
+WebRoot/WEB-INF/views/eGo/egoPage/itEquipmentTogether.jsp
+WebRoot/up/html/ego/znsb_ad.html
+src/main/java/com/sinovatech/b2b/b2b/controller/PagePublishController.java
+src/main/resources/ftl/znsb_ad.ftl
+
+commit 23de0361071b3887fb06540ed5853d5a091b95d8
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 16:29:29 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bConstructionBankService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bConstructionBankServiceImpl.java
+
+commit a6bea1305e322e023f8f72f3b4b3bc567853cd21
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 16:24:11 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bConstructionBankService.java
+
+commit 21396e8dadd17afc4ba97468c4847f2ed408824e
+Merge: 97d2828a 52777bf3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 16:14:43 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 97d2828a0f7c8948a273b6160b894ee1db00e16a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 16:14:03 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/controller/B2bConstructionBankController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bConstructionBankService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/bean/AbstractConstruction.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/bean/SilentRegistration.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bConstructionBankServiceImpl.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+src/main/java/com/sinovatech/b2b/util/BankConst/ConstructionBankConst.java
+
+commit 52777bf306086e4f8f1648ace14d713834147c30
+Merge: a10ee1df 6661bc27
+Author: shuyi <shuyi>
+Date:   Sat Mar 9 15:32:18 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit a10ee1dfa7d4357708cacb988001c085e0980a97
+Author: shuyi <shuyi>
+Date:   Sat Mar 9 15:29:14 2019 +0800
+
+    增加商品介绍
+
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+
+commit 6661bc27bcf93567542a7a2c593075edd2270662
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 11:47:06 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/model/dto/DeptInfoDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit d9049578ecabd7898c09a44002215f1cca05a660
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 11:04:45 2019 +0800
+
+    建设银行返回错误信息
+
+src/main/java/com/sinovatech/b2b/util/BankConst/ConstructionBankConst.java
+
+commit 7d9329efd1808a324bccf353ca6046fc7d53fded
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 10:08:40 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit c58af2970d38b31613d18bd9860aaf388c485b4e
+Merge: a3ee8db1 40f21dd3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 10:01:21 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit a3ee8db1fe461a3498dcc44c066d485adeafafaa
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Sat Mar 9 10:00:49 2019 +0800
+
+    更新接口信息
+
+WebRoot/html/client/customer/product/index_detail.html
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bConstructionBankService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 40f21dd34427c7816f44f73a62e81982babeda47
+Author: wangyuheng <1095175119@qq.com>
+Date:   Sat Mar 9 09:40:50 2019 +0800
+
+    异常处理
+
+src/main/java/com/sinovatech/b2c/model/service/OrderService.java
+
+commit ade52140e8e5d01786cec6079883575c1a57c49a
+Author: wangyuheng <1095175119@qq.com>
+Date:   Sat Mar 9 09:31:25 2019 +0800
+
+    C端订单改价
+
+src/main/java/com/sinovatech/b2b/b2b/controller/OrderController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+src/main/java/com/sinovatech/b2c/model/service/OrderService.java
+src/main/resources/spring/applicationContext-b2b.xml
+
+commit 35a44048cb2c06de8343a6f9abfe4bfeeac8ab89
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Fri Mar 8 18:53:41 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit c5b514e7ed64d34ecb886da7b4c715cd51128ba3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 18:52:05 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 11fb0a6101e1f389194e048a13cb59b73b35ab49
+Merge: 09172a15 44f521f3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 16:43:16 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 09172a15b877a14b6b50625263c084d4afbb3990
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 16:42:50 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 44f521f3b2ec125fe822d9cdb7ec0d16a5c61dff
+Merge: 5ee82ef8 9c2a609f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 15:38:06 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 5ee82ef8a578b4d02372ce4e8446ebc73b7e2e34
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 15:37:44 2019 +0800
+
+    返回提示语
+
+src/main/java/com/sinovatech/b2b/b2b/controller/SyncB2cOrderController.java
+
+commit 9c2a609fedc90c75bc259e6a4220fd62479c847b
+Merge: 142bb1e2 0bd4dc51
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 15:35:11 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 142bb1e207be878da4ab0e8052881d767dc2a49c
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 15:34:42 2019 +0800
+
+    更新接口信息
+
+src/main/java/com/sinovatech/b2b/b2b/model/dto/B2bSilentRegistrationDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dto/DeptInfoDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 0bd4dc5139f2f1450bc23f56d9e3e5c4c27da573
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 15:21:55 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit c7eec256a4c611ef3d40b32968a1154718a18fa3
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 15:09:33 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit 2d9b68fefd97e85bce0ad279670b2cd3ff867dcd
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 14:57:55 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit f7780012372e4d592bb98f98895a4918494be97d
+Merge: 0602e40b a5bac8a3
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 14:47:51 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 0602e40b9ab4d09426f9f7ce1a562acaa0753b51
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 14:47:32 2019 +0800
+
+    改价优化
+
+WebRoot/WEB-INF/views/eGo/common/orderjs.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/OrderController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit a5bac8a3baf1b91d8eb1e93b96d48b015119fda1
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 14:47:17 2019 +0800
+
+    新增同步B2C订单条件
+
+WebRoot/WEB-INF/views/eGo/egoPage/itEquipmentTogether.jsp
+src/main/java/com/sinovatech/b2b/b2b/controller/SyncB2cOrderController.java
+
+commit 8d682492daeb46143b7b4488a8c54bbb275d0ce4
+Merge: af57999b 14a03d0c
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 14:05:28 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit af57999bd824bea8c67993abb18b67e21d00395b
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 14:04:37 2019 +0800
+
+    建设银行接口
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bConstructionBankService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bConstructionBankServiceImpl.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/productStockService.java
+
+commit 14a03d0c0b1c70807899abe146dc265a2bc4ff4f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 11:03:49 2019 +0800
+
+    javadoc
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit 744ea25c68c3cbe27b4dde70bcb5b7830f0fc1d8
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 10:53:37 2019 +0800
+
+    数组越界
+
+src/main/java/com/sinovatech/b2b/util/B2bProductUtil.java
+
+commit 61834d1067d4a04ca8d8537b0b3db0d3b3dc54b9
+Merge: fd9e488f 6646d957
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 10:10:12 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit fd9e488ff47d5b89801022b9012588ceaaf8cb0a
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 10:09:48 2019 +0800
+
+    智能设备聚合页开发
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 6646d95707078c5521d74d5fe8e043bbba86f90b
+Merge: 92fd6e7c 7f84165c
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 10:08:17 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 92fd6e7c6b9c3dbcbf1c06d9206f46b8f21c04be
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 10:07:50 2019 +0800
+
+    不释放C端订单的预占
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 7f84165c740eb44e1b836aa1a1f460bce18eb38b
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 10:06:22 2019 +0800
+
+    javadoc
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/categories/CategoriesService.java
+
+commit da4dfc0dcc0c4943f893ba7f388d726aece85d9f
+Merge: 416b1214 30c2b7c0
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 10:03:08 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+    # Conflicts:
+    #       src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 416b1214c77341ec7cdb882e23b616efb4e507a2
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 8 10:02:33 2019 +0800
+
+    智能设备聚合页开发
+
+WebRoot/WEB-INF/views/eGo/egoPage/itEquipmentTogether.jsp
+WebRoot/ego-v2/main.css
+WebRoot/images/itEquipment/banner01.jpg
+WebRoot/images/itEquipment/banner02.jpg
+WebRoot/images/itEquipment/banner03.jpg
+WebRoot/images/itEquipment/bg_pic26.png
+WebRoot/images/itEquipment/bg_pic3.png
+WebRoot/images/itEquipment/btn-r.png
+WebRoot/images/itEquipment/down21.png
+WebRoot/images/itEquipment/ecsc-join.gif
+WebRoot/images/itEquipment/erweima.png
+WebRoot/images/itEquipment/erweima02.png
+WebRoot/images/itEquipment/fix_right01.png
+WebRoot/images/itEquipment/fix_right02.png
+WebRoot/images/itEquipment/fix_right03.png
+WebRoot/images/itEquipment/fix_right04.png
+WebRoot/images/itEquipment/fix_right05.png
+WebRoot/images/itEquipment/fix_right06.png
+WebRoot/images/itEquipment/guang01.png
+WebRoot/images/itEquipment/gwc.png
+WebRoot/images/itEquipment/he_logo.png
+WebRoot/images/itEquipment/img1.jpg
+WebRoot/images/itEquipment/img10.jpg
+WebRoot/images/itEquipment/img11.jpg
+WebRoot/images/itEquipment/img12.jpg
+WebRoot/images/itEquipment/img13.jpg
+WebRoot/images/itEquipment/img14.jpg
+WebRoot/images/itEquipment/img15.jpg
+WebRoot/images/itEquipment/img16.jpg
+WebRoot/images/itEquipment/img17.jpg
+WebRoot/images/itEquipment/img18.jpg
+WebRoot/images/itEquipment/img19.jpg
+WebRoot/images/itEquipment/img20.jpg
+WebRoot/images/itEquipment/img21.jpg
+WebRoot/images/itEquipment/img22.jpg
+WebRoot/images/itEquipment/img23.jpg
+WebRoot/images/itEquipment/img24.jpg
+WebRoot/images/itEquipment/img25.jpg
+WebRoot/images/itEquipment/img26.jpg
+WebRoot/images/itEquipment/img27.jpg
+WebRoot/images/itEquipment/img28.jpg
+WebRoot/images/itEquipment/img29.jpg
+WebRoot/images/itEquipment/img3.jpg
+WebRoot/images/itEquipment/img30.jpg
+WebRoot/images/itEquipment/img31.jpg
+WebRoot/images/itEquipment/img32.jpg
+WebRoot/images/itEquipment/img33.jpg
+WebRoot/images/itEquipment/img34.jpg
+WebRoot/images/itEquipment/img35.jpg
+WebRoot/images/itEquipment/img36.jpg
+WebRoot/images/itEquipment/img37.jpg
+WebRoot/images/itEquipment/img38.jpg
+WebRoot/images/itEquipment/img39.jpg
+WebRoot/images/itEquipment/img4.jpg
+WebRoot/images/itEquipment/img40.jpg
+WebRoot/images/itEquipment/img41.jpg
+WebRoot/images/itEquipment/img6.jpg
+WebRoot/images/itEquipment/img7.jpg
+WebRoot/images/itEquipment/img8.jpg
+WebRoot/images/itEquipment/img9.jpg
+WebRoot/images/itEquipment/img_xxx.jpg
+WebRoot/images/itEquipment/img_xxx.png
+WebRoot/images/itEquipment/logo.jpg
+WebRoot/images/itEquipment/logo_dian1.png
+WebRoot/images/itEquipment/pic10.png
+WebRoot/images/itEquipment/pic11.png
+WebRoot/images/itEquipment/pic12.png
+WebRoot/images/itEquipment/pic13.png
+WebRoot/images/itEquipment/pic14.png
+WebRoot/images/itEquipment/pic15.png
+WebRoot/images/itEquipment/pic16.png
+WebRoot/images/itEquipment/pic19.png
+WebRoot/images/itEquipment/pic2.png
+WebRoot/images/itEquipment/pic28.png
+WebRoot/images/itEquipment/pic29.png
+WebRoot/images/itEquipment/pic3.png
+WebRoot/images/itEquipment/pic37.png
+WebRoot/images/itEquipment/pic4.png
+WebRoot/images/itEquipment/pic40.png
+WebRoot/images/itEquipment/pic41.png
+WebRoot/images/itEquipment/pic42.png
+WebRoot/images/itEquipment/pic5.png
+WebRoot/images/itEquipment/pic8.png
+WebRoot/images/itEquipment/pic9.png
+WebRoot/images/itEquipment/pic_x1.png
+WebRoot/images/itEquipment/pic_x2.png
+WebRoot/images/itEquipment/pic_x3.png
+WebRoot/images/itEquipment/pic_x4.png
+WebRoot/images/itEquipment/pic_x5.png
+WebRoot/images/itEquipment/pic_x6.png
+WebRoot/images/itEquipment/pic_x7.png
+WebRoot/images/itEquipment/pic_x8.png
+WebRoot/images/itEquipment/pic_x9.png
+WebRoot/images/itEquipment/zdgs01.jpg
+WebRoot/images/itEquipment/zdgs02.jpg
+WebRoot/images/itEquipment/zdgs03.png
+WebRoot/images/itEquipment/zdgs04.jpg
+WebRoot/images/itEquipment/zdgs09.png
+WebRoot/images/itEquipment/znsb01.png
+WebRoot/images/itEquipment/znsb02.png
+WebRoot/images/itEquipment/znsb03.png
+WebRoot/images/itEquipment/znsb04.png
+WebRoot/images/itEquipment/znsb05.png
+WebRoot/images/itEquipment/znsb06.png
+WebRoot/images/itEquipment/znsb07.png
+WebRoot/images/itEquipment/znsb08.png
+WebRoot/images/itEquipment/znsb09.png
+WebRoot/images/itEquipment/znsb10.png
+WebRoot/images/itEquipment/znsb11.png
+WebRoot/images/itEquipment/znsb12.png
+WebRoot/images/itEquipment/znsb13.png
+WebRoot/images/itEquipment/znsb14.png
+WebRoot/images/itEquipment/znsb15.png
+WebRoot/images/itEquipment/znsb16.png
+WebRoot/images/itEquipment/znsb17.png
+WebRoot/images/itEquipment/znsb_ad01.png
+WebRoot/images/itEquipment/znsb_ewm.png
+WebRoot/images/itEquipment/znsb_top01.png
+WebRoot/images/itEquipment/znsb_top02.png
+WebRoot/js/index.js
+WebRoot/js/lunbo/lunbo.js
+WebRoot/js/queryProduct/showIT2.js
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bCategoriesDao.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/categories/CategoriesService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/categories/impl/CategoriesServiceImpl.java
+
+commit 30c2b7c08cc7796e977a116d48ee9708202c96b3
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 09:47:13 2019 +0800
+
+    优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit a96c0959844886a6fb53a64a350cca5ef1aad39a
+Merge: b487d56b 834a546c
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 09:42:52 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit b487d56b8419cd602493ef644d7f58b6aa29c7d8
+Author: shuyi <shuyi>
+Date:   Fri Mar 8 09:41:46 2019 +0800
+
+    改价同步
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+
+commit 834a546c8c47201c75e48bbc2dc2680d0c18a35a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 09:23:36 2019 +0800
+
+    不释放C端订单的预占
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+
+commit 4fa3e41fb37b5f3203132b57afa243dcccb8ceaa
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 09:10:00 2019 +0800
+
+    订单预占和释放
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+
+commit 1a181bc6a8e8a6a88fe0ed16dd81e6f4f38624cd
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 08:36:47 2019 +0800
+
+    优化预占和释放接口
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 6f1267fb833f383f8e2b122e2ae5affdde463b21
+Merge: 452d04dd 9474fcc7
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 08:33:05 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 452d04dd19c1bebf1c08f1f92b2f9ee644d27232
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Mar 8 08:31:28 2019 +0800
+
+    不释放C端订单的预占
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 9474fcc7ceddff2bb8537c1c4127df822f6cb0b8
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Thu Mar 7 18:31:52 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit acd24ce6f435a0a4902c5bdb0f19e525cbe8c6b0
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 18:30:18 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 8dc5e203f0d7ff0e1f2e09f8e7ccf88ffc1e6014
+Merge: b177e3f2 aaa3f299
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 17:12:30 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit b177e3f23f4b3307a814db59f89f0d384733f10b
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 17:11:29 2019 +0800
+
+    查询订单
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit aaa3f299b24fe9befe15e0bad565d3595e348f1d
+Merge: e1dc8c1e 62176f27
+Author: shuyi <shuyi>
+Date:   Thu Mar 7 16:37:19 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit e1dc8c1e77f085326c5388b8d3a87bacc87d31ea
+Author: shuyi <shuyi>
+Date:   Thu Mar 7 16:36:55 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/CopyInfoController.java
+
+commit 62176f279529a39555e88a17fbf1c3cd31c2b2b5
+Merge: 5f8d6df1 7fafe7ac
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 14:28:14 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 5f8d6df13b6727801fd2466c92b27892ddcdd940
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 14:27:31 2019 +0800
+
+    C端订单预占和释放功能
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 7fafe7ace70db11d52bb5d61cdde259fc3d5450a
+Author: shuyi <shuyi>
+Date:   Thu Mar 7 11:28:10 2019 +0800
+
+    下载sql优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bExportQueueFacade.java
+
+commit 46caab0a0675001db3ed791005e44acd1ed4bf6d
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 10:07:13 2019 +0800
+
+    不释放C端订单的预占
+
+src/main/java/com/sinovatech/common/quartz/QuartzJob.java
+
+commit ae57c681656b0349fb5c464c3282b3e70ac5f409
+Author: shuyi <shuyi>
+Date:   Thu Mar 7 10:00:07 2019 +0800
+
+    同步手机与智能设备信息
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+
+commit 2b3e186a45be5af2079b6fb5bd962bbe88a440ec
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 08:42:00 2019 +0800
+
+    去除小合约字样
+
+WebRoot/WEB-INF/views/eGo/egoPage/itEquipmentDetail.jsp
+WebRoot/WEB-INF/views/eGo/egoPage/pjDetail.jsp
+WebRoot/WEB-INF/views/eGo/egoPage/reducePriceDetail.jsp
+WebRoot/WEB-INF/views/eGo/egoPage/spDetail.jsp
+WebRoot/WEB-INF/views/eGo/supplier/supplProductDetail.jsp
+WebRoot/js/queryProduct/showIT.js
+WebRoot/js/queryProduct/showPJ.js
+WebRoot/js/queryProduct/showProduct.js
+
+commit 3b03b985c97638d954059750780f49e2398603b4
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 08:32:53 2019 +0800
+
+    订单预占和释放 订单撤单方法
+
+WebRoot/WEB-INF/web.xml
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/productStockService.java
+
+commit c54252dba5590cfb4ab33f0e9b8ffa8676976aba
+Merge: fbc3ddfb b9e69247
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 08:28:06 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit fbc3ddfbb9cae5ef0cce27712b138e84fa8a729a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Mar 7 08:27:27 2019 +0800
+
+    订单预占和释放 订单撤单方法
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit 4f5d2833b5d2655b62ac595a2c8663d7cf4290b8
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 6 18:02:50 2019 +0800
+
+    订单预占和释放 订单撤单方法
+
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductStockController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bConstructionBankService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bProductStockService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bProductStockServiceImpl.java
+
+commit b9e69247b2666cecfebea2df21e5e497a434e01c
+Author: shuyi <shuyi>
+Date:   Wed Mar 6 16:48:32 2019 +0800
+
+    页面优化
+
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addPhone.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editPhone.jsp
+
+commit dd20f034739a7b2a1e4b36f65dfcd3e7bb7f8f2b
+Merge: 80b9883d f75e2989
+Author: shuyi <shuyi>
+Date:   Wed Mar 6 16:37:47 2019 +0800
+
+    Merge branch 'dev' of http://152.55.229.122/sinovatech/b2b into dev
+
+commit 80b9883d36cc4d3c66ae6f4abd9195fd0dd518fc
+Author: shuyi <shuyi>
+Date:   Wed Mar 6 16:37:18 2019 +0800
+
+    商户,手机,智能设备信息同步,C端订单信息展示,下载
+
+WebRoot/WEB-INF/views/eGo/common/order/company_operate.jsp
+WebRoot/WEB-INF/views/eGo/common/order/order_operate.jsp
+WebRoot/WEB-INF/views/eGo/order/orderDetail.jsp
+WebRoot/WEB-INF/views/eGo/order/orderList.jsp
+WebRoot/WEB-INF/views/eGo/product/productList.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/addPhone.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editIT.jsp
+WebRoot/WEB-INF/views/eGo/product/publish/editPhone.jsp
+WebRoot/WEB-INF/web.xml
+src/main/java/com/sinovatech/b2b/b2b/controller/CopyInfoController.java
+src/main/java/com/sinovatech/b2b/b2b/controller/OrderController.java
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductController.java
+src/main/java/com/sinovatech/b2b/b2b/controller/ProductPublishController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderItemBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bOrderItemDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProValDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bProductDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dto/AbstractTB2bProductDTO.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bExportQueueFacade.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bProductFacade.java
+src/main/java/com/sinovatech/b2b/util/Consts.java
+src/main/java/com/sinovatech/b2c/model/dao/SupplierDAO.java
+src/main/java/com/sinovatech/b2c/model/entity/TSupplierDTO.java
+src/main/java/com/sinovatech/b2c/model/service/GoodsTemplateService.java
+src/main/java/com/sinovatech/b2c/model/service/SupplierService.java
+src/main/java/com/sinovatech/b2c/util/SyncCapacityUtils.java
+src/main/java/com/sinovatech/b2c/util/SyncPhoneUtils.java
+src/main/resources/hbm/TB2bProductDTO.hbm.xml
+src/main/resources/spring/applicationContext-b2b.xml
+
+commit f75e298908d191315d7754e6e683fe16fb115f2e
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Mar 6 16:35:16 2019 +0800
+
+    更改加盟商字体
+
+WebRoot/WEB-INF/views/eGo/egoPage/phoneDetail.jsp
+src/main/java/com/sinovatech/b2b/b2b/model/dto/AbstractTB2bProductDTO.java
+
+commit c3401c167e1367b32790e6d8e6b4d9f26efb96c5
+Merge: adc8a6a5 51b616d7
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 6 09:52:43 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit adc8a6a5d107512e710012c1737ffac71e56d2ad
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Mar 6 09:51:21 2019 +0800
+
+    代码规范
+
+src/main/java/com/sinovatech/b2b/b2b/controller/SyncB2cOrderController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+
+commit 51b616d7e0f8c8abb4878f59a2326bf32378dc4e
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Tue Mar 5 18:59:31 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit a16891f594d27c11b32dcca4d520b3cbece10f1a
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Mar 5 18:58:03 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit fcc89810aa403466dbcabd69390478f3723e44da
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 5 17:20:41 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2binterface/impl/B2bDeliverServiceImpl.java
+
+commit ed4342541f4f4e320cf273c5c3849563455fc535
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 5 16:17:50 2019 +0800
+
+    发货串号数量不对等修复
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bOrderItemDAO.java
+
+commit cdd73f72ff6e39c78f2b674da63deb6e59da62f7
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 5 15:33:15 2019 +0800
+
+    日志打印
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+
+commit dcbeebacba02a99b06f75e078a1684eb32f45849
+Author: shuyi <shuyi>
+Date:   Tue Mar 5 15:13:24 2019 +0800
+
+    获取b2c订单id
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bSyncB2cRecordDAO.java
+
+commit 7925307eeb530918e2ad96f13e8486f35053bb45
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 5 10:36:40 2019 +0800
+
+    查询支付单
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+src/main/java/com/sinovatech/b2c/model/dao/PaymentSerialDAO.java
+
+commit f39d67b4d5dedc510af3d614a9170420e65a39d2
+Merge: 2e78fa73 eddd44aa
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 5 09:33:59 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 2e78fa733c1be4797630bbe7ab245c672590f808
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Mar 5 09:33:23 2019 +0800
+
+    sql修复
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bSyncB2cRecordDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+
+commit eddd44aad2741eb0a5d7bb2d50ac214f1a8cc881
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Mon Mar 4 18:51:29 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 2b7394c733dbc0f08e01dc7878fd55159cc1bf2f
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Mar 4 18:50:02 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 1ccd173461869d28038513cd809fa12192865aed
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 4 16:54:57 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bSyncB2cOrderService.java
+
+commit 4056796686e6d88054aeba60bd4bf769c59dc786
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 4 16:53:09 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bSyncB2cOrderService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+
+commit 36ad413221fdbcbed0a229cd4590af774c6588ff
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 4 16:47:00 2019 +0800
+
+    同步B2C订单生成B2B订单
+
+WebRoot/WEB-INF/web.xml
+src/main/java/com/sinovatech/b2b/b2b/controller/SyncB2cOrderController.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/B2bSyncB2cOrderService.java
+src/main/java/com/sinovatech/b2b/b2b/model/service/impl/B2bSyncB2cOrderServiceImpl.java
+
+commit 3e3e02bc6a65397d9f3f3236aecf52b7d1339e84
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 4 16:42:50 2019 +0800
+
+    新增获取B2C端订单方法
+
+src/main/java/com/sinovatech/b2c/model/service/OrderService.java
+
+commit 1acd6622c3c12b89c6cada0bc25378f1325b6417
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Mar 4 11:24:34 2019 +0800
+
+    同步记录新增时间
+
+src/main/java/com/sinovatech/b2b/b2b/model/dto/Tb2bSyncB2cRecordDTO.java
+src/main/resources/hbm/Tb2bSyncB2cRecordDTO.hbm.xml
+
+commit 59541b2545f9a4a833cb0f2691dff253e915053d
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 1 15:54:00 2019 +0800
+
+    同步B2C订单的信息记录
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/B2bSyncB2cRecordDAO.java
+src/main/java/com/sinovatech/b2b/b2b/model/dto/Tb2bSyncB2cRecordDTO.java
+src/main/resources/hbm/Tb2bSyncB2cRecordDTO.hbm.xml
+
+commit 987185568bdfdbb1849177a1730b02688623f444
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 1 15:50:43 2019 +0800
+
+    B2C订单支付类型
+
+src/main/java/com/sinovatech/b2b/util/Consts.java
+
+commit 0a8b4e4330307273c835833ce62445e022ad7650
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Mar 1 15:44:59 2019 +0800
+
+    和云店新增B2B商户ID字段
+
+src/main/java/com/sinovatech/b2c/model/entity/AbstractTSupplierDTO.java
+src/main/resources/kdHbm/TSupplierDTO.hbm.xml
+
+commit 93c850018b361841c76ffe8926b6811255b7e840
+Author: wangyuheng <1095175119@qq.com>
+Date:   Thu Feb 28 17:47:55 2019 +0800
+
+    新增订单类型
+
+src/main/java/com/sinovatech/b2b/util/Consts.java
+
+commit ea3db20e4a5c1af3114e2fa8e57098210623eb37
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Thu Feb 28 12:42:31 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 93bfaed5ac262d19dd8ca0240dea799a8cbb8132
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Feb 28 12:41:03 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 0375392c663578da51ef0e231fb56ceb643ba32a
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Wed Feb 27 18:52:37 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 1e2aa6c3e62352c7918248aa37151f8b68164393
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Feb 27 18:51:08 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 445cf41f171dade79e47b65d3a0f1a65f63490b3
+Merge: af2e877b 4899a025
+Author: shuyi <shuyi>
+Date:   Wed Feb 27 17:37:50 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit af2e877b49b26e6df16b919d1df28feb1743b5c4
+Author: shuyi <shuyi>
+Date:   Wed Feb 27 17:37:26 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bProductDownHistoryBpo.java
+
+commit 4899a025174bdea94d758d176db5ad240c6a9a22
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Feb 27 17:20:10 2019 +0800
+
+    B2C订单类型常量
+
+src/main/java/com/sinovatech/b2c/util/Consts.java
+
+commit 70a55a12159519b379445fb5cad984d5c61eb0f5
+Merge: ecba8c62 1316cfe0
+Author: shuyi <shuyi>
+Date:   Tue Feb 26 17:12:35 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit ecba8c6244cff2b6dd1dbc1de87648a055092d27
+Author: shuyi <shuyi>
+Date:   Tue Feb 26 17:11:56 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/SeasonsActivityController.java
+src/main/java/com/sinovatech/b2b/util/B2bProductUtil.java
+
+commit 1316cfe05f0659a47f0958c3022cb429cf66202e
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Tue Feb 26 13:29:58 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit a1a8e5b927448212a861bbfe45c11a4c95aa15c9
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Feb 26 13:28:31 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 951784a13f6692f78b4cf20ff1d3bc06e46d5400
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Mon Feb 25 18:55:42 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit ecc46fc8c145f37f9ceef52a67b82b8851a9f7e3
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Mon Feb 25 18:53:47 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 4eb740c8682cbd6e13334d3276cedbfc26d18ba7
+Merge: fa096b82 1f804b1f
+Author: shuyi <shuyi>
+Date:   Mon Feb 25 10:34:05 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit fa096b82cbdb89c73d2ad702c59c82d1ece549bd
+Author: shuyi <shuyi>
+Date:   Mon Feb 25 10:33:32 2019 +0800
+
+    智能音箱订货会修改图片信息
+
+WebRoot/images/smartVoiceBox/images/yxzc_01.png
+WebRoot/images/smartVoiceBox/images/yxzc_02.png
+WebRoot/images/smartVoiceBox/images/yxzc_03.png
+WebRoot/images/smartVoiceBox/images/yxzc_04.png
+WebRoot/images/smartVoiceBox/images/yxzc_05.png
+WebRoot/images/smartVoiceBox/images/yxzc_06.png
+WebRoot/images/smartVoiceBox/images/yxzc_07.png
+WebRoot/images/smartVoiceBox/images/yxzc_08.png
+WebRoot/images/smartVoiceBox/images/yxzc_09.png
+WebRoot/images/smartVoiceBox/images/yxzc_10.png
+WebRoot/images/smartVoiceBox/images/yxzc_11.png
+WebRoot/images/smartVoiceBox/images/yxzc_12.png
+WebRoot/images/smartVoiceBox/images/yxzc_13.png
+WebRoot/images/smartVoiceBox/images/yxzc_14.png
+WebRoot/images/smartVoiceBox/images/yxzc_15.png
+
+commit 1f804b1fb0ecce93e16d148a0584d23ddaaca478
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Fri Feb 22 18:25:20 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 6a44c331ed95ad9d119e31c2db0f2f7630d513fd
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Feb 22 18:23:46 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit 47c3983ffb0f47da8dc5b0b7bce955c67a015203
+Author: wangyuheng <1095175119@qq.com>
+Date:   Fri Feb 22 17:02:30 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/OrderController.java
+
+commit 1f83b64033affe86d8af766bee602267671f457d
+Merge: 04900107 8245fb28
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Feb 22 09:57:52 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 04900107afa3138cf6638671640b9d24e5c2c68d
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Fri Feb 22 09:57:35 2019 +0800
+
+    去除重复
+
+src/main/java/com/sinovatech/b2b/b2b/model/dao/TuanDictionaryindexDAO.java
+
+commit 8245fb282d0f06e67db476ff3a8381449fbfe786
+Author: shuyi <shuyi@sinovatech.com>
+Date:   Thu Feb 21 18:43:20 2019 +0800
+
+    daily_build_by_shuyi
+
+daily_build.txt
+
+commit 222ce8905bebcd2f171e6d6e140d13a7059cf153
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Thu Feb 21 18:41:49 2019 +0800
+
+    daily_build_by_gaowei
+
+daily_build.txt
+
+commit e5122ca5cdd652caac3b255f51f3cdaddbeae360
+Author: shuyi <shuyi>
+Date:   Thu Feb 21 14:40:02 2019 +0800
+
+    样式优化
+
+WebRoot/css/smartVoiceBox/css/main.css
+
+commit 5cd07ebedd7b1ea988ca89b722a556400fa90387
+Author: shuyi <shuyi>
+Date:   Thu Feb 21 14:27:34 2019 +0800
+
+    智能音箱订货会
+
+WebRoot/WEB-INF/views/eGo/seasons/smartVoiceBox/index.jsp
+WebRoot/css/smartVoiceBox/css/main.css
+
+commit 30fd59a3333b3c90b6f780444caa00c342150f92
+Merge: a561141d 6c7646f1
+Author: shuyi <shuyi>
+Date:   Thu Feb 21 11:32:30 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit a561141dbf0cf600f3d62811abf019d829ab1889
+Author: shuyi <shuyi>
+Date:   Thu Feb 21 11:32:14 2019 +0800
+
+    智能音箱订货
+
+WebRoot/WEB-INF/views/eGo/seasons/smartVoiceBox/index.jsp
+WebRoot/css/smartVoiceBox/css/images/bg_more.png
+WebRoot/css/smartVoiceBox/css/main.css
+WebRoot/images/smartVoiceBox/images/gwc.png
+WebRoot/images/smartVoiceBox/images/header_01.jpg
+WebRoot/images/smartVoiceBox/images/header_02.jpg
+WebRoot/images/smartVoiceBox/images/header_03.jpg
+WebRoot/images/smartVoiceBox/images/header_04.jpg
+WebRoot/images/smartVoiceBox/images/pic01.png
+WebRoot/images/smartVoiceBox/images/pic02.png
+WebRoot/images/smartVoiceBox/images/pic03.png
+WebRoot/images/smartVoiceBox/images/pic04.png
+WebRoot/images/smartVoiceBox/images/yxzc_01.png
+WebRoot/images/smartVoiceBox/images/yxzc_02.png
+WebRoot/images/smartVoiceBox/images/yxzc_03.png
+WebRoot/images/smartVoiceBox/images/yxzc_04.png
+WebRoot/images/smartVoiceBox/images/yxzc_05.png
+WebRoot/images/smartVoiceBox/images/yxzc_06.png
+WebRoot/images/smartVoiceBox/images/yxzc_07.png
+WebRoot/images/smartVoiceBox/images/yxzc_08.png
+WebRoot/images/smartVoiceBox/images/yxzc_09.png
+WebRoot/images/smartVoiceBox/images/yxzc_10.png
+WebRoot/images/smartVoiceBox/images/yxzc_11.png
+WebRoot/images/smartVoiceBox/images/yxzc_12.png
+WebRoot/images/smartVoiceBox/images/yxzc_13.png
+WebRoot/images/smartVoiceBox/images/yxzc_14.png
+WebRoot/images/smartVoiceBox/images/yxzc_15.png
+src/main/java/com/sinovatech/b2b/b2b/controller/SeasonsActivityController.java
+src/main/resources/config/seasons.properties
+
+commit 6c7646f1a2c2124d379a40ee69f853f0cfa4e48f
+Author: wangyuheng <1095175119@qq.com>
+Date:   Thu Feb 21 10:02:31 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2b/b2b/controller/CategoriesController.java
+
+commit 0a09e0efcc34886c144b3c0bf27c41cca20d7f57
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Feb 20 18:03:19 2019 +0800
+
+    商品分类设置
+
+src/main/java/com/sinovatech/b2b/b2b/controller/SpecificController.java
+
+commit 9bc0d0114baecb1fdee762941192c81e434a4db3
+Merge: 88857e20 2f25b97e
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Feb 20 15:33:47 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit 88857e20774ab976680a6b0c90ea3d5ad5ff3a26
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Wed Feb 20 15:33:29 2019 +0800
+
+    商品分类设置
+
+src/main/java/com/sinovatech/b2b/b2b/controller/CategoriesController.java
+
+commit 2f25b97ef2b9d9c77aa54b02f61346d62bff1d7c
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Feb 20 10:30:03 2019 +0800
+
+    代码优化
+
+src/main/java/com/sinovatech/b2c/model/entity/AbstractTProductDTO.java
+
+commit 8560c2641be486493a5378078b734300f8d1f277
+Author: wangyuheng <1095175119@qq.com>
+Date:   Wed Feb 20 10:11:07 2019 +0800
+
+    AbstractTProductDTO代码优化
+
+src/main/java/com/sinovatech/b2c/model/entity/AbstractTProductDTO.java
+
+commit 0daa9ada8236601ec6cab696303a005d31426cd2
+Merge: 6a641bad db328c8d
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Feb 19 17:59:12 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+    # Conflicts:
+    #       src/main/resources/hbm/Tb2bCategoriesDTO.hbm.xml
+
+commit db328c8d2aa1a457079c431e40682d0a6a57bc0a
+Author: shuyi <shuyi>
+Date:   Tue Feb 19 11:35:45 2019 +0800
+
+    漏洞修复
+
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bPriceAdjustSheetBPO.java
+
+commit 7ed13e8bf7c8a92ad90a3f321626e846e0987cd6
+Author: wangyuheng <1095175119@qq.com>
+Date:   Tue Feb 19 11:31:13 2019 +0800
+
+    hbm文件优化
+
+src/main/resources/hbm/Tb2bCategoriesDTO.hbm.xml
+
+commit 6a641bad89a1fa7a57e376cbdd0115688bae47c0
+Merge: 432bc287 c16c91ca
+Author: gaowei <gaowei@sinovatech.com>
+Date:   Tue Feb 19 08:22:44 2019 +0800
+
+    Merge branch 'dev' of http://152.55.229.122/sinovatech/b2b into dev
+
+commit c16c91cab43cb2999e864c071326da33b0066750
+Merge: bed09d24 b21f84a1
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Feb 18 17:36:54 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit bed09d24290dea8e16df413bdefb2daf341af796
+Author: wangyuheng <1095175119@qq.com>
+Date:   Mon Feb 18 17:36:29 2019 +0800
+
+    改造加盟商订单流程
+
+src/main/java/com/sinovatech/b2b/b2b/controller/MobileImeiController.java
+src/main/java/com/sinovatech/b2b/b2b/controller/OrderController.java
+src/main/java/com/sinovatech/b2b/b2b/model/bpo/B2bOrderBPO.java
+src/main/java/com/sinovatech/b2b/b2b/model/facade/B2bOrderFacade.java
